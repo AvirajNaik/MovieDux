@@ -7,7 +7,7 @@ export default function Footer(){
     return (
 <footer className="footer">
     <p className="footer-text">
-    &copy; {currentYear} MOvieDux All rights reserved.
+    &copy; {currentYear} Movie Dux All rights reserved.
     </p>
 </footer>
     );
