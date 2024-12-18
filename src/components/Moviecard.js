@@ -19,7 +19,7 @@ export default function MovieCard({movie, isWatclisted, toggleWatchlist}){
     return(
         <div key={movie.id} className="movie-card" >
 
-        <img src={`images/${movie.image}`} alt={movie.title} onError={handleError}/>
+        <img src={`${process.env.PUBLIC_URL}/images/${movie.image}`} alt={movie.title} onError={handleError}/>
 
         <div className="movie-card-info">
             <h3 className="movie-card-title" >{movie.title}</h3>
